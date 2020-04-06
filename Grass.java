@@ -5,7 +5,7 @@ public class Grass extends Plant {
 	public Grass(Location l, World w) {
 		super(l,w);
 		myLifeSpan = 3;
-	}
+	}	
 	
 	public void reproduce() {
 		// this is silly code really, but as an example

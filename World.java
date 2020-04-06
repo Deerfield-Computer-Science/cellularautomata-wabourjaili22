@@ -16,7 +16,7 @@ public class World {
 	public void letTimePass(){
 		
 		makeNewCreatures();
-		//eatThings();
+		eatThings();
 		//creaturesGetOlder();
 		//purgeTheDead();		
 	}
@@ -63,6 +63,9 @@ public class World {
 	}
 	public void setCreatureList(ArrayList<LifeForm> creatureList) {
 		this.creatureList = creatureList;
+	}
+	public void eatThings() {
+		
 	}
 
 	@Override
